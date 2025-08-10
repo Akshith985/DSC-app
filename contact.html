@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | DSC</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .contact-section {
+            max-width: 800px;
+            margin: 80px auto;
+            padding: 40px;
+            background: #1e1e1e;
+            border-radius: 12px;
+            box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.5);
+            color: #fff;
+        }
+        .contact-section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #00d9ff;
+        }
+        .contact-section p {
+            text-align: center;
+            color: #ccc;
+            margin-bottom: 30px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .contact-form input, 
+        .contact-form textarea {
+            padding: 14px;
+            border-radius: 8px;
+            border: none;
+            background: #2c2c2c;
+            color: #fff;
+            font-size: 1rem;
+        }
+        .contact-form input:focus, 
+        .contact-form textarea:focus {
+            outline: 2px solid #00d9ff;
+        }
+        .contact-form button {
+            padding: 14px;
+            background: #00d9ff;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            color: #000;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .contact-form button:hover {
+            background: #00aacc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="logo-placeholder.png" alt="DSC Logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Got a question, suggestion, or just want to say hi? Fill out the form below!</p>
+        
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
