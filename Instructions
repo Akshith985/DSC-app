@@ -1,1 +1,5 @@
 The interface has features such as home, contact, about and details of team members. Navigation has been made easy and a splash screen has been incorporated.
+Basic Django based administration with server to add or remove users (team members)
+login
+user : Sample
+password : dsc123
